@@ -138,3 +138,12 @@ Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
 
 > dim(cars)
 [1] 50  2
+
+> quantile(cars$speed)
+  0%  25%  50%  75% 100% 
+   4   12   15   19   25 
+
+> str(cars)
+'data.frame':	50 obs. of  2 variables:
+ $ speed: num  4 4 7 7 8 9 10 10 10 11 ...
+ $ dist : num  2 10 4 22 16 10 18 26 34 17 ...

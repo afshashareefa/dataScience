@@ -1,0 +1,13 @@
+//read contents of a csv//
+data<-read.csv("c:\users\student\download\filename.csv")
+print(data)
+
+//save the workspace//
+getwd()
+a=100
+print(a)
+write.csv(a,'a.csv')
+
+//load csv file//
+data<-read.csv('a.csv')
+print(data)
